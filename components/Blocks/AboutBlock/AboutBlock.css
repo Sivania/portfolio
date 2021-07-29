@@ -1,0 +1,9 @@
+.aboutBlockMainContent{
+    width: 100%;
+    background-color: #d6b2e4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}

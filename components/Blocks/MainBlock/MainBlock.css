@@ -1,0 +1,124 @@
+.MainBlockMainContent{
+    height: 100vh;
+    background-image: url('../../Images/main2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-position-x: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.MainTop{
+    width: 100%;
+}
+
+.Welcome0{
+    padding-top: 25vh;
+    padding-left: 5vw;
+    color: #9bdadd;
+    font-size: 10vh;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.Welcome1{
+    padding-left: 8vw;
+    color: #d6b2e4;
+    font-size: 8vh;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.MainBottom{
+    width: 100%;
+    align-self: bottom;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+.Welcome2{
+    color: #dad0c0;
+    font-size: 5vh;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 2vh;
+}
+
+.Arrow{
+    background: url(singleArrow.png);
+    width: 4vh;
+    height: 4vh;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    animation-name: ArrowAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-bottom: 4vh;
+    background-repeat: no-repeat;
+}
+
+.Arrow:hover{
+    background: url(doubleArrow.jpg);
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 1080px) {
+    .Welcome0{
+        padding-top: 35vh;
+        font-size: 50px;
+    }
+
+    .Welcome1{
+        font-size: 40px;
+    }
+
+    .Welcome2{
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .Welcome0{
+        padding-left: 0px;
+        padding-top: 30vh;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .Welcome1{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-top: 5vh;
+        text-align: center;
+    }
+
+    .Welcome2{
+        font-size: 30px;
+    }
+}
+
+@keyframes ArrowAnimation {
+    from {background: url(singleArrow.png);
+        width: 4vh;
+        height: 4vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    to {background: url(doubleArrow.jpg);
+        width: 4vh;
+        height: 4vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+}

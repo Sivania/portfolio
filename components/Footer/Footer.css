@@ -1,0 +1,46 @@
+.Footer{
+    background-color: rgb(50, 50, 50);
+    display:flex;
+    padding-bottom: 15vh;
+}
+
+.FooterSection{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+
+.FooterTitle{
+    list-style-type: none;
+    width: 100%;
+    font-family: Rowdies;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.FooterItem{
+    margin-top: 8px;
+    width: 100%;
+    display:flex;
+    color: gray;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.FooterLink:focus:visited:hover:active{
+    text-decoration:none;
+    color: white;
+}
+
+.FooterLink{
+    color: gray;
+    text-decoration:none;
+}
+
+.FooterLink:hover{
+    color: white;
+}

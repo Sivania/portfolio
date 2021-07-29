@@ -1,0 +1,108 @@
+.AboutEntry{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 100%;
+    width: 80%;
+}
+
+.AboutArticle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.AboutTitle{
+    font-size: 4vh;
+    font-family: Rowdies, sans-serif;
+    background: rgb(25,201,209);
+    background: linear-gradient(90deg, #d591ee 0%, rgba(18,204,223,0) 70%, rgba(0,212,255,0) 100%);
+    padding-left: 15px;
+}
+.AboutTextBox{
+    width: 50%;
+}
+.AboutText{
+    font-size: 2.5vh;
+    font-weight: 400;
+    margin-top: 4vh;
+    font-family: roboto;
+}
+.AboutImage{
+    margin-top: 3vh;
+    width: 45%;
+    height: 45%;
+    align-self: center;
+}
+
+
+.AboutButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.AboutButton{
+    width: 13vw;
+    height: 6vh;
+    background-color: rgb(167, 166, 166);
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 4vh;
+    font-weight: 400;
+    border-radius: 2vh;
+    border: none;
+    align-self: flex-end;
+    outline: none;
+}
+
+.AboutButton:hover {
+    box-shadow: 0 5px 10px  #19c9d1;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) {
+    .AboutArticle{
+        width: 100%;
+    }
+
+    .AboutTextBox{
+        width: 100%;
+    }
+    .AboutEntry{
+        justify-content: center;
+    }
+
+    .AboutImage{
+        width: 60%;
+        height: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .AboutEntry{
+        width: 90%;
+    }
+
+    .AboutButton{
+        width: 120px;
+        height: 50px;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .AboutTitle{
+        background: linear-gradient(90deg, rgba(25,201,209,1) 0%, rgba(18,204,223,0) 100%, rgba(0,212,255,0) 100%);
+    }
+
+    .AboutImage{
+        width: 80%;
+        height: 80%;
+    }
+}
